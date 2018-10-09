@@ -1,3 +1,10 @@
+# Insertion Sort
+
+<p align="center">
+  <img width="460" height="300" src="http://interactivepython.org/courselib/static/pythonds/_images/insertionsort.png">
+</p>
+
+```python
 def insertion_sort (item):
 
     for i in range (0, len(item)):
@@ -10,3 +17,4 @@ def insertion_sort (item):
             j-= 1
 
     return item
+```
