@@ -4,7 +4,7 @@
   <img width="500" height="350" src="https://dobicode.files.wordpress.com/2018/09/merge-sort.png">
 </p
 
-* Merge 2 arrays left and right at each level(Used at all nodes and levels)
+* Merge 2 arrays left and right at each level (Used at all nodes and levels)
 * **Use 2 pointers to iterate over two lists**
 ```python 
 def merge(left, right):
