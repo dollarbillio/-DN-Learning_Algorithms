@@ -32,7 +32,8 @@ def merge(left, right):
 ```python 
 def merge_sort(L):
     print('merge sort: ' + str(L))
-    if len(L)
+    # Base Case
+    if len(L) < 2:
         return L[:]
     else:
         middle = len(L)//2
@@ -40,6 +41,7 @@ def merge_sort(L):
         This recursion will start
         returning base case when len(L) == 1 or 0
         '''
+        # Start when len(L) = 1
         left = merge_sort(L[:middle])
         right = merge_sort(L[middle:])
         return merge(left, right)
