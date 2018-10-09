@@ -5,7 +5,7 @@
 </p
 
 * Merge 2 arrays left and right at each level(Used at all nodes and levels)
-* Use 2 pointers to check two lists
+* **Use 2 pointers to iterate over two lists**
 ```python 
 def merge(left, right):
     result = []
