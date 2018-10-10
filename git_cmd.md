@@ -12,6 +12,10 @@ cd ~
 ls -la
 ```
 ---
+<p align="center">
+  <img width="460" height="400" src="https://i.stack.imgur.com/caci5.png">
+</p>
+
 # GIT
 * Set username and email 
 ```
