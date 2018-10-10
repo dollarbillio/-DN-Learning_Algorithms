@@ -35,3 +35,7 @@ git init
 ```
 git log
 ```
+* Show Commits by author
+```
+git log --author="name"
+```
