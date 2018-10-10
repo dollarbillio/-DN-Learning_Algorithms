@@ -31,3 +31,7 @@ git help ../commit/add/...
 ```
 git init
 ```
+* Show all of commits
+```
+git log
+```
