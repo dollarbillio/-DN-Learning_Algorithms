@@ -43,3 +43,8 @@ git log
 ```
 git log --author="name"
 ```
+* Show all changes to files that are still in the working area, **not committed yet**
+```
+git diff
+```
+https://www.youtube.com/watch?v=uwhjnCb1-kY&list=PL6gx4Cwl9DGAKWClAD_iKpNC0bGHxGhcx&index=9
