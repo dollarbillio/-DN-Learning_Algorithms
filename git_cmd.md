@@ -43,8 +43,13 @@ git log
 ```
 git log --author="name"
 ```
-* Show all changes to files that are still in the working area, **not committed yet**
+* Show all changes to files in the **Working Area** vs **Local Commited Repo**
+* **not committed yet**/the saved file is different from **Local Repo**
+* If files added to **Staging Area**, no comparison
 ```
 git diff
 ```
-https://www.youtube.com/watch?v=uwhjnCb1-kY&list=PL6gx4Cwl9DGAKWClAD_iKpNC0bGHxGhcx&index=9
+* Comparing files of **Staging Area** to **Committed Local Repo**
+```
+git diff --staged
+```
