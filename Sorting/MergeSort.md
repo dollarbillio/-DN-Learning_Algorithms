@@ -28,7 +28,7 @@ def merge(left, right):
         j += 1
     return result
 ```
-* **Divide and Merge**
+* **Divide(Recursion) and Merge**
 ```python 
 def merge_sort(L):
     print('merge sort: ' + str(L))
