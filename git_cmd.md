@@ -13,7 +13,7 @@ ls -la
 ```
 ---
 <p align="center">
-  <img width="460" height="400" src="https://i.stack.imgur.com/caci5.png">
+  <img width="460" height="450" src="https://i.stack.imgur.com/caci5.png">
 </p>
 
 # GIT
@@ -53,3 +53,8 @@ git diff
 ```
 git diff --staged
 ```
+* Delete file from **Working Area** but not **committed** 
+```
+git rm <file>
+```
+https://www.youtube.com/watch?v=lyoJiKnpl6w&list=PL6gx4Cwl9DGAKWClAD_iKpNC0bGHxGhcx&index=11
