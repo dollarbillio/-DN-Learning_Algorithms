@@ -43,7 +43,7 @@ git log
 ```
 git log --author="name"
 ```
-* Show all changes to files in the **Working Area** vs **Local Commited Repo**
+* Show all changes to files in the **Working Area** vs **Local Committed Repo**
 * **not committed yet**/the saved file is different from **Local Repo**
 * If files added to **Staging Area**, no comparison
 ```
