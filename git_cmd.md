@@ -57,4 +57,11 @@ git diff --staged
 ```
 git rm <file>
 ```
-https://www.youtube.com/watch?v=lyoJiKnpl6w&list=PL6gx4Cwl9DGAKWClAD_iKpNC0bGHxGhcx&index=11
+* rename file
+```
+git mv second.txt pudding.txt
+```
+* Move file into folder and change the name
+```
+git mv pudding.txt LoveNote/patty.txt 
+```
