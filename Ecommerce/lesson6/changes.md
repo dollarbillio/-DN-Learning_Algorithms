@@ -32,6 +32,7 @@ def contact_page(request):
 ```
 ---
 * In the same folder as ```urls.py``` and ```views.py```, create ```forms.py```
+* https://docs.djangoproject.com/en/2.1/ref/forms/widgets/#django.forms.EmailInput
 ```python 
 from django import forms
 
