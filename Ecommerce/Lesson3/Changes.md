@@ -1,4 +1,3 @@
-
 * settings.py
 ```python
 'DIRS': [os.path.join(BASE_DIR, 'templates')]
