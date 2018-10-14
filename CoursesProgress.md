@@ -1,0 +1,4 @@
+## ON PROGRESS
+---
+## DONE
+* [UMichigan] Python Data Structures: https://www.coursera.org/learn/python-data/home/welcome
