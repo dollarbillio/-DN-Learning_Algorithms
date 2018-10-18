@@ -2,7 +2,7 @@
 ---
 * Time Complexity: <img src="https://latex.codecogs.com/gif.latex?O%28log_n%29" />
 ---
-## BinarySearch.py
+* **BinarySearch.py**
 ```python
 def binarySearch(list_1, item):
     low = 0
@@ -22,7 +22,7 @@ def binarySearch(list_1, item):
 print (binarySearch([1, 2, 3, 4], 1))
 ```
 ---
-## BinarySearch.java
+* **BinarySearch.java**
 ```java
 public class BinarySearch {
 
