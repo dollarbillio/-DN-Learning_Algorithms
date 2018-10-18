@@ -14,4 +14,4 @@
 ---
 ### **Delete Element**
 * **Array**: shift elements -> O(n)
-* **Linked_list**: same as above
+* **Linked_list**: same as above -> O(1)
