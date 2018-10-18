@@ -25,12 +25,12 @@
   - Each number in ```range(4^4)``` represented as decimal in **base_4**
   - Do **bit_right_shift** and **take_modulo**: bit_right_shift => [x // 4 ** ith position]
   
-  | Shift/Remainder | 0             | 1             | 2   | 3   |
-  | ----------------|-------------- |---------------|:---:|:---:|
-  | 0               |i[0] not_in_bag|i[1] not_in_bag|..   |     |
-  | 1               |i[0] in_bag1   |i[1] in_bag1   |..   |     |
-  | 2               |...            |..             |..   |     |
-  | 3               |...            |..             |..   |     |
+  | Shift/Remainder | 0             | 1          | 2   | 3   |
+  | ----------------|-------------- |------------|:---:|:---:|
+  | 0               |i[0] not_in_bag|i[0] in_bag1|     |     |
+  | 1               |i[1] not_in_bag|i[1] in_bag1|..   |     |
+  | 2               |...            |..          |..   |     |
+  | 3               |...            |..          |..   |     |
 ---
 **4. __CODE__**
 ```python
