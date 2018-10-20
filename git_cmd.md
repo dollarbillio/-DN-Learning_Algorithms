@@ -1,3 +1,8 @@
+# CMD
+* Move file
+```
+move source/filename destination/filename
+```
 # BASH
 * Current working directory
 ```
