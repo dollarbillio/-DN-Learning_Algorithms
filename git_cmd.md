@@ -39,6 +39,11 @@ git help ../commit/add/...
 * Create a local repository
 ```
 git init
+git clone url
+```
+* Initial push 
+```
+git push origin master 
 ```
 * Show all of commits
 ```
