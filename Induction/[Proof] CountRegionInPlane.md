@@ -12,6 +12,7 @@
 * **(N+1)th** line added to **[N-1]** lines => increase N regions (hypothesis)
 * **(N+1)th** line added to **[N-1]** lines => increase [N-1] (containing R1_half region) + R2_half region 
 * **Nth** without **(N+1)th** also increases [N-1] regions (containing a R3_half) + a half_R4 
+* Pay attention to R region
 * When **Nth** meets **(N+1)th** 
   * R is divided into 4 quarters
   * One_quarter_region can be considered to be a part of **+[N-1] regions** after adding back **Nth**
