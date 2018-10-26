@@ -22,7 +22,11 @@ def findthesmallest(arr):
 def selectionsort(arr):
     new_arr = []
     # For each i+= 1, n-=1 
+    ''' range(len(arr)) is valuated once 
+    so that range(len(arr)) is constant
+    '''
     for i in range (len(arr)):
+    	# arr will be updated as usual
         smallest_index = findthesmallest(arr)
         new_arr.append(arr.pop(smallest_index))
 
