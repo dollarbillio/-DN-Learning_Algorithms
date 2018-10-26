@@ -1,5 +1,4 @@
-
-```python
+# Divide and Conquer
 def binarysearch(list_1, result):
     mid = len(list_1) // 2
 
@@ -13,4 +12,3 @@ def binarysearch(list_1, result):
             return binarysearch(list_1[:mid], result)
         elif list_1[mid] <= result:
             return binarysearch(list_1[mid:], result)
-```
