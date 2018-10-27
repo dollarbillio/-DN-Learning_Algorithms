@@ -1,4 +1,4 @@
-# QuickSorting Algorithm
+# Quick Sort
 
 <p align="center">
   <img width="500" height="350" src="http://2.bp.blogspot.com/-6YYLhmuFUoU/Ua6ZU7rsZFI/AAAAAAAAA0s/e8V4fl9UbP4/s1600/quick_sort.jpg">
