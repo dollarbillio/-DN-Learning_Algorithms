@@ -7,9 +7,9 @@
 ---
 **Divide and Conquer**
 * Select a pivot => pivot = list_1[r] | r is random index
-* Create left_array left[:pivot, pivot+1:] if (i < pivot) -> quicksort(left_array) until <-> (start_returning) len(base_case) == 1   
-* Create right_array left[:pivot, pivot+1:] if i > pivot -> same above
-* Create mid_array that contains value == pivot 
+* Create left_array in left[:pivot, pivot+1:] if (i < pivot) -> quicksort(left_array) until <-> (start_returning) len(base_case) == 1   
+* Create right_array in left[:pivot, pivot+1:] if i > pivot -> same above
+* Create mid_array in left[:pivot, pivot+1:] if i == pivot
 * After Base_Case => return left_array + [pivot] + mid_array + right_array
 ---
 **Time Conplexity**
