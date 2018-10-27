@@ -33,6 +33,7 @@ def quicksort(list_1):
     else:
         # Choose the random point
         rand_pt = randint(0, len(list_1))
+	# Choose pivot
         pivot = list_1[rand_pt]
         # Modified the list_1 to exclude the pivot
         list_1 = list_1[0:rand_pt] + list_1[rand_pt+1:]
