@@ -6,10 +6,11 @@
 
 ---
 **Divide and Conquer**
-* Select a pivot => pivot = list_1[0]
-* Create left_array left[1:] if (i < pivot) -> quicksort(left_array) until <-> (start_returning) len(base_case) == 1   
-* Create right_array left[1:] if i > pivot -> same above
-* After Base_Case => return left_array + [pivot] + right_array
+* Select a pivot => pivot = list_1[r] | r is random index
+* Create left_array left[:pivot, pivot+1:] if (i < pivot) -> quicksort(left_array) until <-> (start_returning) len(base_case) == 1   
+* Create right_array left[:pivot, pivot+1:] if i > pivot -> same above
+* Create mid_array that contains value == pivot 
+* After Base_Case => return left_array + [pivot] + mid_array + right_array
 ---
 **Time Conplexity**
 1. If quick_sort uses 1st element as pivot (worst)
