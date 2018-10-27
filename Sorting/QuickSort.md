@@ -12,12 +12,12 @@
 * After Base_Case => return left_array + [pivot] + right_array
 ---
 **Time Conplexity**
-1. If quick_sort use 1st element as pivot (worst)
+1. If quick_sort uses 1st element as pivot (worst)
 	* Will take at most O(n) recursion call stacks before the first recursion returns
-2. If quick_sort use median element as pivot (average)
+2. If quick_sort uses median element as pivot (average)
     * Take at most O(log n) call stacks before the first recursion returns 
-3. Each level of stack: Do task O(n) 
-4. Take around **O(nlogn)** 
+3. Each level of stack: Do task O(n) time
+4. Take around **O(n logn)** 
 5. Faster than **mergesort()** 
     * Is in-place (MergeSort requires extra memory linear to number of elements to be sorted).
     * Has a small hidden constant.
