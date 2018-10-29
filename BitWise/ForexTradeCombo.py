@@ -27,13 +27,13 @@ all_combo = []
 for i in trade_combo(['EUR', 'USD', 'JPY', 'GBP', 'AUD', 'CAD']):
     all_combo.append(i)
 
----------------------------------------------------
-# Modify so that currency possibilities are chosen
----------------------------------------------------
+-------------------------------------
+# Modify to find the leading currency
+-------------------------------------
 modified = []
 for i in all_combo:
     dict_sign = {}
-    '''Get the maximum sign in currency combo situation'''
+    '''Get the maximum sign in currency combos'''
     for j in i:
         dict_sign[j[0]] = dict_sign.get(j[0], 0) + 1
 	
