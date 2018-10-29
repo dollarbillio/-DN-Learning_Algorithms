@@ -14,7 +14,7 @@ def trade_combo(list_1):
     for i in range(2**N):
         Combo = []
         for j in range(N):
-	        # Each index of number corresponds to a currency position
+            # Each index of number corresponds to a currency position
             # Shift
             if (i // 2**j) % 2 == 1:
                 Combo.append("- " + currency_dict[j])
@@ -27,9 +27,9 @@ all_combo = []
 for i in trade_combo(['EUR', 'USD', 'JPY', 'GBP', 'AUD', 'CAD']):
     all_combo.append(i)
 
---------------------------------------------------
+---------------------------------------------------
 # Modify so that currency possibilities are chosen
---------------------------------------------------
+---------------------------------------------------
 modified = []
 for i in all_combo:
     dict_sign = {}
@@ -50,9 +50,9 @@ for i in all_combo:
 
 print ("Here is our trade")
 
--------------------------------
+--------------------------------
 # Most Possible Currency Trades
--------------------------------
+--------------------------------
 for i in range (len(modified)):
     if modified[i] != [0]:
         print (str (all_combo[i]) + ' >>> ' + str(modified[i]))
