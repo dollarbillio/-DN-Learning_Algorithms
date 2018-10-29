@@ -56,7 +56,6 @@ print ("Here is our trade")
 for i in range (len(modified)):
     if modified[i] != [0]:
         print (str (all_combo[i]) + ' >>> ' + str(modified[i]))
--------------------------------
 			
 
 			
