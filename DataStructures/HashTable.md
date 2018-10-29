@@ -8,9 +8,8 @@
   * Making the search/delete/insert = O(n) => Like normal linked_list
 
 <p align="center">
-  <img width="350" height="500" src="https://javaconceptoftheday.com/wp-content/uploads/2016/02/HashMapInternalStructure.png">
+  <img width="350" height="350" src="https://javaconceptoftheday.com/wp-content/uploads/2016/02/HashMapInternalStructure.png">
 </p>
-https://javaconceptoftheday.com/wp-content/uploads/2016/02/HashMapInternalStructure.png
 
 ---
 * **Load Factor**: number of used slots / predetermined_len(slots)
