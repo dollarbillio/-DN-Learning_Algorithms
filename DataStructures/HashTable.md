@@ -1,4 +1,4 @@
-# Hash Table:
+# Hash Table
 ---
 * **Cache**: Using Hash_Table to memorize data instead of recalculating
 ---
