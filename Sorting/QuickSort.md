@@ -44,7 +44,5 @@ def quicksort(list_1):
         mid_array = [i for i in list_1 if i == pivot]
 		
         return quicksort (left) + [pivot] + mid_array + quicksort(right)
-		
 
-print (quicksort([1, 3, 4, 9, 2, 3, 5]))
 ```
