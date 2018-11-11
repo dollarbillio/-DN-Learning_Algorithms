@@ -3,8 +3,10 @@
 * Can't be used on negative weighted graph
 ---
 **Component**
-* A graph to process
+* A graph that keeps track of nodes and neighbors
+ * {node{neighbor:distance}}
 * A table to update the shortest path from 'start' to node_i
-  * {nodes:distance)
+ * {nodes:distance)
 * A table to keep track of the previous node that leads to current node 
+ * {nodes:previousnodes}
 * An array to keep track of visited nodes
