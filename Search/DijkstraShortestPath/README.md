@@ -1,8 +1,8 @@
-# Dijkstra
+# Dijkstra Shortest Path
 ---
 * Can't be used on negative weighted graph
 ---
-**Component**
+**Components**
 * A graph that keeps track of nodes and neighbors
  * ```{node:{neighbor:distance}}```
 * A table to update the shortest path from 'start' to node_i
