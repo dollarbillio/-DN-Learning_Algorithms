@@ -4,9 +4,9 @@
 ---
 **Component**
 * A graph that keeps track of nodes and neighbors
- * {node:{neighbor:distance}}
+ * ```{node:{neighbor:distance}}```
 * A table to update the shortest path from 'start' to node_i
- * {nodes:distance)
+ * ```{nodes:distance}```
 * A table to keep track of the previous node that leads to current node 
- * {nodes:previous_node}
+ * ```{nodes:previous_node}```
 * An array to keep track of visited nodes
