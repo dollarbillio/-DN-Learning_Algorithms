@@ -13,9 +13,7 @@
 * Delete An Empty Folder
 ```rmdir folder```
 * List all items including the hiddens in the repository
-```
-ls -la
-```
+```ls -la```
 ---
 <p align="center">
   <img width="460" height="450" src="https://i.stack.imgur.com/caci5.png">
