@@ -3,15 +3,25 @@
 ```move source/filename destination/filename```
 # BASH
 * Current working directory
-```pwd```
+```
+pwd
+```
 * Change directory to home directory
-```cd ~```
+```
+cd ~
+```
 * Delete A File
-```rm -i MyFile.rtf MyCV.rtf MyGreatAmericanNovel.rtf```
+```
+rm -i MyFile.rtf MyCV.rtf MyGreatAmericanNovel.rtf
+```
 * Delete A Folder (Delete recursively to the base_file)
-```rm -R folder```
+```
+rm -R folder
+```
 * Delete An Empty Folder
-```rmdir folder```
+```
+rmdir folder
+```
 * List all items including the hiddens in the repository
 ```ls -la```
 ---
