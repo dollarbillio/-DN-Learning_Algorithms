@@ -11,7 +11,6 @@ graph["start"] = {}
 graph["start"]["a"] = 6
 graph["start"]["b"] = 2
 
-
 # Neighbor of a_node
 graph["a"] = {}
 graph["a"]["fin"] = 1
@@ -28,7 +27,7 @@ graph["fin"] = {}
 # +-----------------------------------------------+
 
 '''
-Cost to travel from start_node to other nodes
+Cost to travel from startNode to other nodes
 {node_a:distance_from_a}
 '''
 
