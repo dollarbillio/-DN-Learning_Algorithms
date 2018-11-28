@@ -60,43 +60,43 @@ processed = []
 # | that you haven't processed yet
 # +---------------------------------+
 
-def find_lowest_cost_node(costs):
+def FindLowestCostNode(costs):
     ''' 
-    This function will return the node
-    with lowest cost that is not in the processed list
+    function returns the node s.t ("start" -> node) = lowestCost
+    and node not in the processed list
     '''
-    # assuming that lowest_cost = infinity
-    lowest_cost = float("inf")
+    # assuming that lowestCost = infinity
+    lowestCost = float("inf")
     # default == None incase | final destination has no neighbor_output node
-    lowest_cost_node = None
+    lowestCostNode = None
     ''' Iterate over whole items in costs to compare costs'''
     for node in costs:
         cost = costs[node]
-        if cost < lowest_cost and node not in processed:
-            lowest_cost = cost 
-            lowest_cost_node = node
+        if cost < lowestCost and not (node in processed):
+            lowestCost = cost 
+            lowestCostNode = node
         
-    return lowest_cost_node
+    return lowestCostNode
 
 # +---------------------------------+
 # | Main Dijkstra's
 # +---------------------------------+
-node = find_lowest_cost_node(costs)
+lowestCostNode = FindLowestCostNode(costs)
 
-while node is not None:
+while lowestCostNode != None:
     # Distance from "start" to its neighbor_nodes
     # int output
-    cost_to_node = costs[node]
+    costToNode = costs[lowestCostNode]
     # neighbors of the current node. Type: dict
-    neighbor_node = graph[node]
+    lowestCostNodeNeighbor = graph[lowestCostNode]
 
     # for [c, d, e]  in neighbors dictionary of b
-    for n in neighbor_node.keys():
-        # new_cost = cost to b from start + cost from b to the current neighbor
-        new_cost = cost_to_node + neighbor_node [n]
+    for node in lowestCostNodeNeighbor.keys():
+        # new_cost = startToCurrentNode + bToItsNeighbor
+        newCost = costToNode + lowestCostNodeNeighbor[n]
 
         ''' 
-        Cross check the table cost 
+        Cross check the tableCost from "start"
         * is the cost from start to c/not through b) 
         greater than start to c/through b)?
         '''
@@ -109,9 +109,9 @@ while node is not None:
             parents[n] = node
     
     # add the processed 'b' in the processed list and not processed again
-    processed.append(node)
+    processed.append(lowestCostNode)
     # Call the function again
-    node = find_lowest_cost_node(costs)
+    node = FindLowestCostNode(costs)
 
 print (costs)
 print (parents)
