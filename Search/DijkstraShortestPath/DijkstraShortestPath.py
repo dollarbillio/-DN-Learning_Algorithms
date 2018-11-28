@@ -93,27 +93,25 @@ while lowestCostNode != None:
     # for [c, d, e]  in neighbors dictionary of b
     for node in lowestCostNodeNeighbor.keys():
         # new_cost = startToCurrentNode + bToItsNeighbor
-        newCost = costToNode + lowestCostNodeNeighbor[n]
+        newCost = costToNode + lowestCostNodeNeighbor[node]
 
         ''' 
         Cross check the tableCost from "start"
         * is the cost from start to c/not through b) 
         greater than start to c/through b)?
         '''
-        if costs[n] > new_cost:
+        if costs[node] > newCost:
             # update the cost to get to a with shorter path from start
             # if costs['c'] == 6, new_cost == 5 => 
             # update costs['c'] with 5
-            costs[n] = new_cost
+            costs[node] = newCost
             # update the previous node as 'b', not start
-            parents[n] = node
+            parents[node] = lowestCostNode
     
     # add the processed 'b' in the processed list and not processed again
     processed.append(lowestCostNode)
     # Call the function again
-    node = FindLowestCostNode(costs)
+    lowestCostNode = FindLowestCostNode(costs)
 
 print (costs)
 print (parents)
-
-    
