@@ -20,3 +20,11 @@
 
 * Work through the first row: take/not take, given that a bag can hold 1/2/3/4 lbs
 * Formula for remaining rows: ```cell[i][j]``` = max (```cell[i-1][j]``` , ```currentItemValue + cell[i-1][j-currentItemCost]```) 
+* The order of rows doesn't matter
+---
+**Notes**
+* The subproblems don't depend on each other
+* It is impossible to have more than 2 sub-knapsack
+* It is possible for those sub-knapsack to have their own sub-knapsacks
+* It is possible that the best solution doesn't fill the knapsack completely: Steal a $3 mil - 2.5lbs diamond and there is still 0.5lbs left that can't store anything more
+
