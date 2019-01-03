@@ -10,7 +10,14 @@
 * ```SELECT * FROM contacts;```: select all from contacts
 * ```SELECT email FROM contacts;```: select 'email' column only
 * ```SELECT * FROM contacts WHERE name="DUNG";```: select a single entry
-* ```SELECT DISTINCT col FROM table```: select distinct values 
+* ```SELECT DISTINCT col FROM table```: select distinct values
+* ```SELECT COUNT(*) FROM table```: number of rows in table
+* ```SELECT COUNT(birthday) FROM table```: count how many non-missing entries in ```birthday``` column
+* ```SELECT COUNT (DISTINCT birthday) FROM table```: count how many non-missing distinct entries in ```birthday``` column
+---
+### Select with filters
+* ```SELECT title FROM films WHERE title = 'Metropolis';```: select ```title``` column where ```title``` = smth
+* ```= equal, <> not equal, < less than, > greater than, <= less than or equal to, >= greater than or equal to```
 ---
 ## Modifying tables
 * ```.backup newdatabackup```: back up the file.db to newdatabackup
