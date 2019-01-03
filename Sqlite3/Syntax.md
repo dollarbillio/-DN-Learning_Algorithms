@@ -6,9 +6,11 @@
 * ```INSERT INTO contacts (name, phone, email) values('Tim', 8787878, 'tim@email.com');```: insert instance
 * ```INSERT INTO contacts values('Tim', 8787878, "@email);```: quick add 
 * ```INSERT INTO contacts (name, phone) values('Tim', 8787878);```: insert without email
+* ```SELECT col1, col2 FROM table```: select many columns
 * ```SELECT * FROM contacts;```: select all from contacts
 * ```SELECT email FROM contacts;```: select 'email' column only
 * ```SELECT * FROM contacts WHERE name="DUNG";```: select a single entry
+* ```SELECT DISTINCT col FROM table```: select distinct values 
 ---
 ## Modifying tables
 * ```.backup newdatabackup```: back up the file.db to newdatabackup
