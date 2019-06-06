@@ -31,7 +31,7 @@ def numerology(birthday, name):
     
     return main_numerology(birthday, newName)
 
-
+print (numerology(birthday, name))
 
 
 	
