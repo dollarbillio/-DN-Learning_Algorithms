@@ -14,3 +14,14 @@
 * ```response.xpath('//h1/a/text()').extract_first()``` --> 'Quotes to Scrape'
 * ```response.xpath('//*[@class="tag-item"]/a/text()').extract_first()``` --> 'love'
 * ```response.xpath('//*[@class="tag-item"]/a/text()').extract()``` --> ['love', 'inspirational', 'life', 'humor', 'books', 'reading', 'friendship', 'friends', 'truth', 'simile']
+---
+* Change the spider file using Sublime and change to this
+```py
+def parse(self, response):
+    	h1_tag = response.xpath('//h1/a/text()').extract_first()
+    	tags = response.xpath('//*[@class="tag-item"]/a/text()').extract()
+        
+    	yield {'H1 Tag':h1_tag, 'Tags':tags}
+ ```
+ * ```scrapy list```: to see spider 
+ * ```scrapy crawl spider_name```: run spider in terminal
